@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+body {
+    font-family: 'Mitr', sans-serif;
+    width: 100vw;
+
+}
+.NavContainer {
+    height: 36px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    border-bottom: 3.5px solid #b7d6aa;
+    ;
+}
+
+#logoImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    object-fit: cover;
+    object-position: 0px 100%;
+}
+
+.leftNavContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.rightNavContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.helpText {
+    color: #52973A;
+    font-size: 14px;
+}
+
+#searchInput {
+    height: 22px;
+    width: 15vw;
+    margin: 0 15px;
+    background-color: #b7d6aa;
+    /* background: burlywood; */
+    border-radius: 15px;
+    border: none;
+}

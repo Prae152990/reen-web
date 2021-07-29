@@ -1,0 +1,147 @@
+.bodyContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("./images/project_image04.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.secondRowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80vh;
+    width: 90vw;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.logoLoginContainer {
+    margin: 30px 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    border-right: 5px solid #346d1f;
+}
+
+.logoLogin{
+    display: flex;
+    align-items: flex-start;
+    margin: 12px 0 8px 0;
+}
+
+#logoImgLogin {
+    width: 90%;
+    border-bottom: 3px solid #346d1f;
+}
+
+.detailLogoContainer {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 88%;
+    margin: 0px 10px 60px 10px;
+}
+
+#detailLogo {
+    font-size: 14.5px;
+}
+
+.lbText {
+    font-size: 20px;
+    color: #346d1f;
+}
+
+.inputLoginContainer {
+    margin: 60px 35px 60px 20px;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.8); */
+    background: url("./images/project_image15.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#loginText {
+    font-size: 56px;
+    color: #346d1f;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+
+.inInputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.allButton {
+    width: 22vw;
+    border-radius: 24px;
+    border: none;
+    height: 42px;
+    margin: 12px;
+    font-size: 20px;
+}
+
+.inputSpace {
+    width: 25vw;
+    height: 22px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    /* background-color: rgba(222, 184, 135, 0.35); */
+    background: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+}
+
+#forgotPasswordText {
+    font-size: 16px;
+    text-decoration: none;
+    color: #346d1f;
+}
+
+#signinbtn {
+    margin-top: 10px;
+    background: #346d1f;
+    /* color: burlywood; */
+    color: white;
+    letter-spacing: 0.4em;
+}
+
+#signupbtn {
+    border: 3px solid #346d1f;
+    /* background: burlywood; */
+    background: white;
+    color: #346d1f;
+}
+
+.lineBtwBtnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineBtwBtn {
+    height: 5px;
+    width: 75%;
+    border-top: 3px solid #346d1f;
+}

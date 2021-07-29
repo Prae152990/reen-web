@@ -1,0 +1,237 @@
+#dateIcon {
+    border: 5px solid #52973A;
+    background: white;
+    margin: 5.5px;
+}
+
+.bodyContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainBodyContainer {
+    width: 99vw;
+    display: flex;
+    flex-flow: row;
+}
+
+.headerFormText {
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-size: 5.75vh;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 10px 30px 5px 30px;
+    text-shadow: -2px -2px 4px #000;
+    text-shadow: 2px 2px 4px #000;
+    text-shadow: -6px -6px 4px rgb(18, 70, 38);
+    text-shadow: 6px 6px 4px rgb(18, 70, 38);
+    text-shadow: -6px -6px 4px rgb(18, 70, 38);
+    text-shadow: 6px 6px 4px rgb(18, 70, 38);
+    text-shadow: -4px -4px 2px rgb(18, 70, 38);
+    text-shadow: 4px 4px 2px rgb(18, 70, 38);
+    text-shadow: -4px -4px 4px rgb(18, 70, 38);
+    text-shadow: 4px 4px 4px rgb(18, 70, 38);
+    text-shadow: -2px -2px 2px #000;
+    text-shadow: 2px 2px 2px #000;
+    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 4px rgb(18, 70, 38);
+    text-shadow: 1px 1px 6px rgb(18, 70, 38);
+    text-shadow: 1px 1px 4px rgb(18, 70, 38);
+    text-shadow: 1px 1px 6px rgb(18, 70, 38);
+    text-shadow: 1px 1px 8px #418628;
+    text-shadow: -1px -1px 8px #418628;
+    text-shadow: 1px 1px 8px #418628;
+    text-shadow: 1px 1px 8px #418628;
+  }
+
+  .formFirstline, .formSecondline, .formForthline, .formFifthline {
+      display: flex;
+  }
+
+.formDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 87vw;
+    min-width: 50vw;
+    border-radius: 20px;
+    background: rgba(183, 214, 170, 0.95);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.formleftContainer{
+    margin: 15px 0px 25px 10px;
+    padding: 8px 5px 8px 10px;
+}
+
+.firstNameContainer, .lastNameContainer, .addressContainer, .telContainer, .emailContainer, .subDistrictContainer, .districtContainer, .provinceContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 20px;
+}
+
+label {
+    color: #418628;
+    font-size: 2.5vh;
+    margin: 3px 0;
+}
+
+.searchByGoogleMapsBtn {
+    margin: 15px 20px;
+    padding: 8px;
+    width: 20vw;
+    height: 40px;
+    background: #f0c400;
+    border: 2.5px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 2vh;
+}
+
+.CampContainer, .typeTrashContainer, .dateContainer, .timeContainer, .additionalContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 6px 20px;
+}
+
+.selectMain {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 3px solid #79c061;
+    height: 3.25vh;
+}
+
+#selectCamp {
+    width: 32vw;
+}
+#typeTrash {
+    width: 31vw;
+}
+#selectDate {
+    width: 29.5vw;
+}
+#selectTime {
+    width: 26.5vw;
+}
+
+.inputPart {
+    width: 22.5vw;
+    border: 3px solid #79c061;
+    border-radius: 4px;
+    height: 3.25vh;
+}
+
+.labelPart {
+    font-size: 16px;
+}
+
+#additional {
+    border-radius: 4px;
+    border: 3px solid #79c061;
+    margin: 0 10px;
+}
+
+.buttonrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 12px 0;
+}
+
+.buttonForm {
+    margin: 0 10px;
+    height: 40px;
+    width: 14vw;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+#buttonBack {
+    background: white;
+    color: #418628;
+}
+
+#buttonReset {
+    background:  rgb(172, 57, 28);
+    color: white;
+}
+
+#buttonSubmit {
+    background: #418628;
+    color: white;
+}
+
+.footerContainer {
+    /* width: 100%; */
+    padding: 10px 15px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+}
+.leftfooter {
+    display: flex;
+}
+
+.footerColumn1 {
+    width: 20vw;
+    padding: 5px 15px;
+    color: #52973A;
+}
+
+.textHeadingcontactFooterColumn1 {
+    font-size: 15px;
+    color: #52973A;
+}
+.textDetailcontactFooterColumn1 {
+    font-size: 9px;
+    color: #52973A;
+}
+
+.footerColumn2 {
+    width: 9vw;
+    padding: 5px 15px;
+    color: #52973A;
+}
+
+.detailcontactFooterColumn2 {
+    padding-left: 10px;
+}
+
+.textDetailcontactFooterColumn2 {
+    font-size: 9px;
+    color: #52973A;
+}
+
+.headingcontactFooterColumn3 {
+    color: #52973A;
+}
+
+.textDetailcontactFooterColumn3 {
+    font-size: 9px;
+    color: #52973A;
+}
+
+.detailcontactFooterColumn3 {
+    padding-left: 10px;
+}
+
+.footerColumn5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgDecDiv {
+    padding-left: 15px;
+    width: 31vw;
+    height: 400px;
+    background: url("./images/project_decoration_image01.png");
+    background-position: left;
+    background-size: cover;
+}

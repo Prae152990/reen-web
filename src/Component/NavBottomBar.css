@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+.footerContainer {
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+}
+.leftfooter {
+    display: flex;
+    text-align: left;
+}
+
+.footerColumn1 {
+    width: 20vw;
+    padding: 5px 15px;
+    color: #52973A;
+}
+
+.textHeadingcontactFooterColumn1 {
+    font-size: 15px;
+    color: #52973A;
+    padding: 1px;
+}
+.textDetailcontactFooterColumn1 {
+    font-size: 9px;
+    color: #52973A;
+    padding: 1px;
+}
+
+.footerColumn2 {
+    width: 9vw;
+    padding: 5px 15px;
+    color: #52973A;
+}
+
+.detailcontactFooterColumn2 {
+    padding-left: 10px;
+}
+
+.textDetailcontactFooterColumn2 {
+    font-size: 9px;
+    color: #52973A;
+    padding: 1px;
+}
+
+.headingcontactFooterColumn3 {
+    color: #52973A;
+}
+
+.textDetailcontactFooterColumn3 {
+    font-size: 9px;
+    color: #52973A;
+    padding: 1px;
+}
+
+.detailcontactFooterColumn3 {
+    padding-left: 10px;
+    padding: 1px;
+}
+
+.rightfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerColumn5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

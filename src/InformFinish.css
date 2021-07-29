@@ -1,0 +1,198 @@
+#confirmIcon {
+    border: 5px solid #52973A;
+    background: white;
+    margin: 5.5px;
+}
+
+.bodyContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainBodyContainer {
+    width: 99vw;
+    display: flex;
+    flex-flow: row;
+}
+
+.headerFormText {
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-size: 5.75vh;
+    font-weight: 500;
+    color: aliceblue;
+    margin: 10px 30px 5px 30px;
+    text-shadow: -2px -2px 4px #000;
+    text-shadow: 2px 2px 4px #000;
+    text-shadow: -6px -6px 4px rgb(18, 70, 38);
+    text-shadow: 6px 6px 4px rgb(18, 70, 38);
+    text-shadow: -6px -6px 4px rgb(18, 70, 38);
+    text-shadow: 6px 6px 4px rgb(18, 70, 38);
+    text-shadow: -4px -4px 2px rgb(18, 70, 38);
+    text-shadow: 4px 4px 2px rgb(18, 70, 38);
+    text-shadow: -4px -4px 4px rgb(18, 70, 38);
+    text-shadow: 4px 4px 4px rgb(18, 70, 38);
+    text-shadow: -2px -2px 2px #000;
+    text-shadow: 2px 2px 2px #000;
+    text-shadow: 1px 1px 2px #000;
+    text-shadow: 1px 1px 4px rgb(18, 70, 38);
+    text-shadow: 1px 1px 6px rgb(18, 70, 38);
+    text-shadow: 1px 1px 4px rgb(18, 70, 38);
+    text-shadow: 1px 1px 6px rgb(18, 70, 38);
+    text-shadow: 1px 1px 8px #418628;
+    text-shadow: -1px -1px 8px #418628;
+    text-shadow: 1px 1px 8px #418628;
+    text-shadow: 1px 1px 8px #418628;
+  }
+
+  .formFirstline, .formSecondline, .formForthline, .formFifthline {
+      display: flex;
+  }
+
+.formDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 87vw;
+    min-width: 50vw;
+    border-radius: 20px;
+    background: rgba(183, 214, 170, 0.95);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.formleftContainerFnsh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 42%;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    margin: 25px 0px 25px 0px;
+    /* padding: 18px 10px 18px 0px; */
+}
+
+.inlineContainerCon {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 20px;
+}
+
+.lineContainerCon {
+    display: flex;
+    flex-direction: row;
+}
+
+.labelPartCon {
+    color: #418628;
+    font-size: 2.5vh;
+    margin: 3px 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.mainTextFnsh {
+    font-size: 40px;
+    color: #418628;
+    margin: 5px 0;
+}
+
+.secondMainTextFnsh {
+    font-size: 18px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.forthMainTextFnsh {
+    font-size: 22px;
+    color: gray;
+    margin: 5px 0;
+}
+
+.buttonrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 12px 0;
+}
+
+#buttonBackFnsh {
+    margin: 0 10px;
+    height: 40px;
+    width: 18vw;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2vw;
+    cursor: pointer;
+    background: #418628;
+    color: white;
+}
+
+.footerContainer {
+    /* width: 100%; */
+    padding: 10px 15px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+}
+.leftfooter {
+    display: flex;
+}
+
+.footerColumn1 {
+    width: 20vw;
+    padding: 5px 15px;
+    color: #52973A;
+}
+
+.textHeadingcontactFooterColumn1 {
+    font-size: 15px;
+    color: #52973A;
+}
+.textDetailcontactFooterColumn1 {
+    font-size: 9px;
+    color: #52973A;
+}
+
+.footerColumn2 {
+    width: 9vw;
+    padding: 5px 15px;
+    color: #52973A;
+}
+
+.detailcontactFooterColumn2 {
+    padding-left: 10px;
+}
+
+.textDetailcontactFooterColumn2 {
+    font-size: 9px;
+    color: #52973A;
+}
+
+.headingcontactFooterColumn3 {
+    color: #52973A;
+}
+
+.textDetailcontactFooterColumn3 {
+    font-size: 9px;
+    color: #52973A;
+}
+
+.detailcontactFooterColumn3 {
+    padding-left: 10px;
+}
+
+.footerColumn5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgDecDiv {
+    padding-left: 15px;
+    width: 31vw;
+    height: 400px;
+    background: url("./images/project_decoration_image01.png");
+    background-position: left;
+    background-size: cover;
+}

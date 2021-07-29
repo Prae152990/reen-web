@@ -1,0 +1,86 @@
+.headerCamp {
+    height: 40px;
+    /* background: rgb(18, 70, 38); */
+    background: #346d1f;
+    /* border-top: 2.5px solid #b7d6aa; */
+    /* border-top: 3.5px solid black; */
+    border-bottom: 3.5px solid burlywood;
+}
+
+.headerCampText {
+    font-size: 27px;
+    font-weight: 400;
+    /* color: #8fbb80; */
+    color: burlywood;
+}
+
+.campBanner {
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: rgba(26, 71, 43, 0.5);
+    /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.campContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5px;
+    width: 185px;
+    height: 200px;
+    border-radius: 5px;
+    background: url("../images/project_image15.jpg");
+    background-position: center;
+    background-size: contain;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.textCampContainer {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    border-top: 2px solid #346d1f;
+}
+
+.textCamp {
+    color: rgba(19, 66, 37, 0.9);
+}
+
+.textCamp02, .textCamp03, .textCamp06 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.textCamp04, .textCamp05, .textCamp07 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.imgCamp {
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    background: white   
+}
+
+#imgCamp05, #imgCamp06 {
+    object-fit: contain;
+    object-position: 0px 100%;
+}
+
+.imgCamp {
+    height: 150px;
+    width: 100%;
+}
+
+#imgCamp04, #imgCamp06 {
+    object-position: 50% 50%;
+}
+
+#imgCamp05 {
+    object-position: 55% 50%;
+}

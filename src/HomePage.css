@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+* {
+    font-family: 'Mitr', sans-serif;
+}
+.bodyContainerHP {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url("./images/project_image04.jpg");
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    margin-bottom: 3px;
+}
+
+.secondRowHP {
+    width: 100%;
+    /* margin: 3px 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    /* border-bottom: 5px solid rgb(18, 70, 38); */
+    border-bottom: 5px solid #346d1f;
+}
+
+.logoAndbuttonContainerHP {
+    width: 34vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 45px;
+    height: 250px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.logoContainerHP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.divlogoimgHP {
+    /* width: 45vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonContainerHP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tableLinkContainerHP {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tableLinkHP {
+    margin: 10px 0;
+    /* color: rgb(18, 70, 38); */
+    color: #346d1f;
+}
+.buttonDivHP {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logoimgHP {
+    height: 140px;
+    padding: 10px 10px 5px 10px;
+    object-fit: cover;
+    object-position: 0px 100%;
+}
+
+.newsContainerHP {
+    width: 35vw;
+}
+
+.divnewsimgHP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsimgHP {
+    width: 35vw;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0px 100%;
+}
+
+.divProfileAllHP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileContainerHP {
+    height: 100%;
+    width: 100%;
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.leftProfileContainerHP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.rightProfileContainerHP {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headUsernameProfileTextHP {
+    color: #346d1f;
+    font-size: 21px;
+    text-align: left;
+    font-weight: 800;
+}
+
+.headUsernameProfileHP {
+    border-bottom: 2px solid #346d1f;
+}
+
+.bfUsernameProfileTextHP {
+    color: black;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+}
+
+.usernameProfileTextHP {
+    color: #346d1f;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.pointProfileContainerHP {
+    display: flex;
+    align-items: center;
+}
+
+.PointProfileTextHP {
+    margin: 0 10px 0 0;
+    color: #346d1f;
+    font-weight: 500;
+}
+
+.bfPointProfileTextHP, .afPointProfileTextHP {
+    margin: 0 10px 0 0;
+    color: black;
+    font-weight: 500;
+}
+
+.memberNumberHP {
+    color: darkred;
+}
+
+.bfPointProfileTextHP, .afPointProfileTextHP {
+    font-size: 16px;
+}
+
+.PointProfileTextHP {
+    font-size: 20px;
+}
+
+.divProfileHP {
+    display: flex;
+    width: 26.5vw;
+    height: 235px;
+    padding: 0px 15px;
+    background: url("./images/project_image15.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 0 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+.imgProfileHP {
+    border-radius: 10px;
+    border: 4px solid #346d1f;
+}
+
+.usernameProfileHP, .bfUsernameProfileHP {
+    padding: 5px 15px;
+}
+
+.editBtnHP, .historyBtnHP {
+    height: 25px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.buttonRowHP {
+    display: flex;
+}
+
+.historyBtnHP {
+    width: 4.5vw;
+    margin-right: 8px;
+}
+
+.editBtnHP {
+    margin-right: 8px;
+    width: 7.5vw;
+    background-color: #346d1f;
+}
+
+.editBtnTextHP {
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+.historyBtnTextHP {
+    color: #346d1f;
+    font-weight: 500;
+}
+
+.serviceButtonHP {
+    width: 27.5vw;
+    height: 37.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 3.5px solid #52973A;
+    background: burlywood;
+    color: #346d1f;
+}
+
+.serviceButtonTextHP {
+    font-size: 20px;
+
+}
+
+.thirdBarHP {
+    margin: 5px 0;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopBannerHP {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background: url("./images/project_image10.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* border-top: 4px solid rgb(18, 70, 38); */
+    border-top: 4px solid #346d1f;
+    margin: 3px 0px 5px 0px;
+}
+
+.textshopBannerHP {
+    margin: 0 20px;
+    width: 180px;
+    font-size: 25px;
+}
+
+.shopBannerimgHP {
+    width: 100vw;
+    object-fit: cover;
+    height: 150px;
+}
+
+.textshopBannerContainerHP {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0) , rgba(0,0,0,0) );
+    color: white;
+    align-items: center;
+}
+
+.textshopBannerHP {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+
