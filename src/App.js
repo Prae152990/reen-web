@@ -16,7 +16,7 @@ import ProfileManageMoney from './ProfileManageMoney';
 function App() {
   return (
     <div className="App">
-      {/* <HomePage/> */}
+      <HomePage/>
       {/* <LoginPage/> */}
       {/* <LoginPageSignup/> */}
       {/* <InformDeliNameAddress/> */}
@@ -28,7 +28,7 @@ function App() {
       {/* แก้ไข CSS */}
       {/* <EditProfileNameAddress/> */}
       <ProfileMessage/>
-      {/* <EditProfileMessage/> */}
+      <EditProfileMessage/>
       <ProfileManageMoney/>
     </div>
   );
